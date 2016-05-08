@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Douglas Clarke</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous">
+    </script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-2 hidden-xs col-sm-2">
+            <img class="title-logo img-responsive" src="http://placekitten.com/150/150" alt="logo">
+          </div>
+          <div class="col-md-10 col-xs-12 col-sm-10 text-right text-uppercase">
+            <h1 class= "text-thin">Douglas Clarke</h1>
+            <h4>Front-End Ninja</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class = "col-md-12">
+            <hr>
+          </div>
+        </div>
+      </header>
+      <section id="featured-project">
+        <div class="row">
+          <div class="col-md-12">
+            <picture>
+              <source media="(max-width: 992px)" srcset="http://placekitten.com/910/455">
+              <source media="(max-width: 1200px)" srcset="http://placekitten.com/1110/555">
+              <img class= "img-responsive" data-toggle="modal" data-target="#feature" src="http://placekitten.com/690/345" alt="feature project">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <figure>
+              <img class= "center-block img-responsive" data-toggle="modal" data-target="#proj1" src="http://placekitten.com/400/200" alt="Project">
+              <figcaption>
+                <h3>Project Name</h3>
+                <span>source url</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure>
+              <img class= "center-block img-responsive" data-toggle="modal" data-target="#proj2" src="http://placekitten.com/400/200" alt="Project">
+              <figcaption>
+                <h3>Project Name</h3>
+                <span>source url</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure>
+              <img class= "center-block img-responsive" data-toggle="modal" data-target="#proj3" src="http://placekitten.com/400/200" alt="Project">
+              <figcaption>
+                <h3>Project Name</h3>
+                <span>source url</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="modal-descriptions">
+        <!-- Feature Modal -->
+        <div class="modal fade" id="feature" tabindex="-1" role="dialog" aria-labelledby="featureModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="featureModal">Feature Project</h4>
+              </div>
+              <div class="modal-body">
+                Feature Project Description
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proj1 1 Modal -->
+        <div class="modal fade" id="proj1" tabindex="-1" role="dialog" aria-labelledby="project1Modal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="project1Modal">Project 1</h4>
+              </div>
+              <div class="modal-body">
+                Project 1 Description
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proj2 Modal -->
+        <div class="modal fade" id="proj2" tabindex="-1" role="dialog" aria-labelledby="project2Modal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="project2Modal">Project 2</h4>
+              </div>
+              <div class="modal-body">
+                Project 2 Description
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proj3 Modal -->
+        <div class="modal fade" id="proj3" tabindex="-1" role="dialog" aria-labelledby="project3Modal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="project3Modal">Project 3</h4>
+              </div>
+              <div class="modal-body">
+                Project 3 Description
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
