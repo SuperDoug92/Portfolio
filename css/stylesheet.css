@@ -6,8 +6,9 @@ hr{
 
 body{
   font-family: 'Lato', sans-serif;
-  color: #747704;
+  color: #c4ea09;
   font-weight: 300;
+  text-shadow: -1px 0 #5447a7, 0 1px #5447a7, 1px 0 #5447a7, 0 -1px #5447a7;
 }
 
 .text-muted{
